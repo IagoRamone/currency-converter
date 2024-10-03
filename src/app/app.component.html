@@ -1,3 +1,27 @@
-<ion-app>
-  <ion-router-outlet></ion-router-outlet>
-</ion-app>
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-title>Bem-Vindo ao Currency-Converter</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>Conversor de Moedas</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      <p>Converta valores entre diferentes moedas de forma rápida e fácil.</p>
+      <ion-button expand="full" routerLink="/converter">Converter</ion-button>
+    </ion-card-content>
+  </ion-card>
+
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>Sobre nós</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      <p>Conheça um pouco do nosso Time</p>
+      <ion-button expand="full" routerLink="/nosso-time">Quero conhecer</ion-button>
+    </ion-card-content>
+  </ion-card>
+</ion-content>
