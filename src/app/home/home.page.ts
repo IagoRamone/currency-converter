@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { ExchangeService } from '../services/exchange.service';
 
+
 @Component({
   selector: 'app-home',
   templateUrl: 'home.page.html',
